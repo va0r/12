@@ -1,0 +1,42 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 21:04:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 21:04:37] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 21:04:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Выполняется поиск
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 21:04:41] "GET /search?s=a HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 21:04:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 21:04:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 21:04:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполняется поиск
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 21:04:46] "GET /search?s= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 21:04:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 21:04:46] "GET /uploads/images/cat.png HTTP/1.1" 200 -
+INFO:root:Выполняется поиск
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 21:05:37] "GET /search?s= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 21:05:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 21:05:37] "[36mGET /uploads/images/cat.png HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 21:05:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 21:05:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполняется поиск
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 21:05:52] "GET /search?s=а HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 21:05:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 21:05:52] "[36mGET /uploads/images/cat.png HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 21:06:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 21:06:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 21:07:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 21:07:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 21:07:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Выполняется поиск
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 21:07:03] "GET /search?s= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 21:07:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 21:07:03] "[36mGET /uploads/images/cat.png HTTP/1.1[0m" 304 -
